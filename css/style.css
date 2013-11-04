@@ -1,0 +1,21 @@
+.hero-unit{
+  text-align: center;
+  background-color: #c0c0fe;
+}
+.search, .typeahead{
+  text-align: left;
+  font-size: 17pt;
+  width: 470px;
+}
+@media screen and (max-width: 1000px) {
+  .search, .typeahead{
+    font-size: 12pt;
+    width: 380px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .search, .typeahead{
+    font-size: 10pt;
+    width: 300px;
+  }
+}
